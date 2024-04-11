@@ -1,38 +1,395 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+
+.pricolor{
+    color:#016368 ;
+}
+.pricolor1{
+  color:#114338;
+}
+.countdown-bg{
+  background-color: #EDFFFD;
+}
+.pribgcolor{
+    background-color: #016368;
+    color: #016368;
+}
+
+.planeimg{
+  width: 44px;
+  height: 44px;
+}
+
+.btn-signup {
+    background-color: #016368;
+    color:white;
+    border-radius: 40px;
+    border: 0;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+
+.btn-future{
+  background: linear-gradient(45deg,  #026D71F5,#00B0B6);
+
+    color:white;
+    border-radius: 40px;
+    border: 0;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+
+.btn-roadMap {
+  background-color: #00868B;
+  color:white;
+  border-radius: 40px;
+  border: 0;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  margin: 0.2rem;
+  font-weight: 600;
+}
+.btn-commingsoon {
+    background-color: #016368;
+    color:white;
+    border-radius: 40px;
+    border: 0;
+    padding-left:3rem;
+    padding-right:3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin: 0.1rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.emailInput{
+  
+    border-radius: 32px;
+    border: 2px solid #016368;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 0.2rem;
+    font-weight: 500;
+}
+
+.btn-login {
+   
+    color:black;
+    background-color: white;
+    box-shadow: 0px 3px 5px #bfbfbf;
+    border-radius: 40px;
+    border: 1px solid #bfbfbf;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+
+.btn-home1 {
+  background-color: #016368;
+  color:white;
+  border-radius: 40px;
+  border: 0;
+  padding-left:2rem;
+  padding-right:2rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin: 0.5rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.btn-home2{
+  background-color: #E9F7FF;
+    color:#008289;
+    border-radius: 40px;
+    border: 0;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin: 0.5rem;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+
+.tabnav{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page2 h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #003438;
+}
+
+.page2 p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #003438;
+  
+}
+
+
+.btn-footer {
+   
+    color:black;
+    background-color: white;
+    box-shadow: 0px 3px 5px #bfbfbf;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+
+.btn-home {
+   
+    color:#008289;
+    background-color:#E9F7FF;
+    box-shadow: 0px 3px 5px #bfbfbf;
+    border-radius: 40px;
+    border: 0px solid #bfbfbf;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.2rem;
+    font-weight: 600;
+}
+
+.nav-custom{
+font-family: Plus Jakarta Sans;
+font-size: 1.1rem ;
+font-weight: 600;
+}
+
+.phracolor{
+    background: linear-gradient(to right, #00555A, #50B893);
+    -webkit-background-clip: text;
+    color: transparent;
+  font-weight:700 ;
+  
+  
+}
+
+.homep1{
+  font-size: 32px;
+}
+
+.countdowncolor {
+  background: linear-gradient(to right, #00555A,#00555A, #50B893,#00555A,#00555A);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.countdowncolor h1 {
+  font-size:110px; 
+  font-weight: 800;
+}
+
+.countdowncolor p {
+  font-size: 32px; 
+}
+.countdowncolor div {
   text-align: center;
+  
+}
+.countdowncolor .coutDHM{
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.custom-hr {
+    border-radius: 3px;
+    border: 3px solid #00555A; 
+    align-items: end;
+    width: 30%;
+    margin-left:1.2rem;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.custom-hr1 {
+    border-radius: 3px;
+    border: 3px solid black; 
+     align-items: end;
+         width: 20%;
+         
+    
+}
+
+.custom-hr2 {
+    border-radius: 3px;
+    border: 3px solid black; 
+     align-items: end;
+         width: 10%;
+         
+    
+}
+.hidden {
+    display: none;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .custom-container1{
+    background-color: #EDFFFD;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+  
+  .custom-scroll {
+    overflow-x: auto;
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
   }
+  
+  .custom-scroll::-webkit-scrollbar {
+    display: none; 
+  }
+
+  .custom-scroll-image{
+    width: 400px;
+    height: auto;
+  }
+  .image-name-overlay {
+    position: absolute;
+    bottom: 0;
+    padding-left: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .cursor-pointer{
+    cursor: pointer;
+  }
+  
+  .custom-container2{
+    background-color: #00ADB0;
+  }
+
+  .commingsoonatag{
+    color: #012269;
+  }
+
+  .custom-roadmap-box-container{
+    background-color: #EDFFFD;
+    border-radius: 2px;
+    border: 1px solid #00868B80;
+
+  }
+
+
+  .custom-roadmap-box-container h1{
+    color: #07565A;
+    font-size: 16px;
+  }
+
+  .custom-roadmap-box-container p{
+    color: #003438;
+
+  }
+
+  .custom-roadmap-box-container hr {
+    border-radius: 3px;
+    border: 3px solid #003438;
+    width: 10%;
 }
+
+.customhr {
+  width: 5px;
+  background-color: #79F1D6;
+}
+.customhr1 {
+ 
+  color: #79F1D6;
+  margin-top: -5px;
+}
+
+.requestDemoBgImg{
+  background-image: url("./assets/Vector2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+@media (max-width: 576px) {
+  .planeimg {
+    width: 28px; 
+    height: 28px; 
+  }
+  .homep1{
+    font-size: 20px;
+  }
+  .tabnav{
+    font-size: 14px;
+  }
+  .btn-commingsoon {
+   
+    border-radius: 40px;
+    
+    padding-left:1rem;
+    padding-right:1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0.1rem;
+    font-weight: 500;
+    font-size: 13px;
+}
+.unlog{
+  width: 55px;
+  height: 55px;
+}
+
+.page2 h1{
+  font-size: 32px;
+ 
+}
+
+.page2 p{
+  font-size: 14px;
+}
+
+.countdowncolor h1 {
+  font-size:60px; 
+}
+
+.countdowncolor p {
+  font-size: 16px; 
+}
+
+.countdowncolor .coutDHM{
+  font-size: 15px;
+}
+
+.requestDemoBgImg {
+  background-image: none ;
+}
+}
+  
+  
+
+
