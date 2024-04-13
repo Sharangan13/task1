@@ -9,9 +9,9 @@ export default function Page5() {
     <div className="container  custom-container2 py-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-6 mt-5">
-          <h1 className="bg-white text-center pb-1">
+          <h1 className="bg-white text-start px-1">
             Selected Andromeda Features
-            <hr className="custom-hr1 ms-5 " />
+            <hr className="custom-hr1" />
           </h1>
         </div>
       </div>
@@ -29,10 +29,11 @@ export default function Page5() {
           </a>
         </div>
         <div className="col-12 col-lg-6  pt-4 pt-lg-0 ">
-          <div>
-            <iframe
-              width="auto"
-              height="auto"
+          <div className="text-center">
+            <iframe style={{ height: "388px" , width:"592px" }} 
+            className="img-fluid"
+              width="300px"
+              height="600px"
               src="https://www.youtube.com/embed/PWDQpEBq_pU?si=Llj0jYUx66hZOXpw"
               title="YouTube video player"
               frameborder="0"
@@ -57,18 +58,20 @@ export default function Page5() {
           </a>
         </div>
         <div className="col-12 col-lg-6 pt-4 pt-lg-0">
-          <div>
-            <iframe
-               width="auto"
-               height="auto"
-              src="https://www.youtube.com/embed/PWDQpEBq_pU?si=Llj0jYUx66hZOXpw"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </div>
+        <div className="text-center ">
+            <iframe style={{ height: "388px" , width:"592px" }} 
+            className="img-fluid"
+        width=""
+        height=""
+        src="https://www.youtube.com/embed/PWDQpEBq_pU?si=Llj0jYUx66hZOXpw"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+    ></iframe>
+</div>
+
         </div>
       </div>
       <div className="row py-5 bg-white rounded-5 m-1 m-lg-5 d-flex flex-column flex-lg-row justify-content-center align-items-center">
@@ -85,18 +88,18 @@ export default function Page5() {
           </a>
         </div>
         <div className="col-12 col-lg-6 pt-4 pt-lg-0">
-          <div>
-            <iframe
-               width="auto%"
-               height="auto"
+        <div className="text-center">
+        <iframe style={{ height: "388px" , width:"592px" }} 
+            className="img-fluid"
+              width="300px"
+              height="600px"
               src="https://www.youtube.com/embed/PWDQpEBq_pU?si=Llj0jYUx66hZOXpw"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
-            ></iframe>
-          </div>
+            ></iframe>          </div>
         </div>
       </div>
     </div>

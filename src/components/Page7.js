@@ -41,7 +41,7 @@ export default function Page7() {
       <div className="container">
         <div className="d-flex flex-column flex-lg-row">
           <div className="col-12 col-lg-6">
-            <div className="row ">
+            <div className="row col-12">
               <div className="col-12">
                 <h1 className="display-4 fw-medium py-2 py-lg-">Countdown to Andromeda Launch</h1>
               </div>
@@ -50,7 +50,7 @@ export default function Page7() {
                   Get Ready for a Revolutionary Experience
                 </p>
               </div>
-              <div className="col-12 ">
+              <div className="col-12 col-lg-11 ">
                 <div className="d-flex align-items-start justify-content-between countdowncolor px-0 px-sm-1 px-md-2">
                   <div>
                     <h1 className="fw-bold py-0 my-0">{days}</h1>
@@ -73,11 +73,11 @@ export default function Page7() {
                 <input
                   type="email"
                   placeholder="Enter your email address...."
-                  className="border-2  py-2 py-lg-3 px-4 my-1 my-md-3 my-lg-4  rounded-5 w-100 emailInput"
+                  className="border-2  py-2 py-lg-4 px-4 my-1 my-md-3 my-lg-4 emailInput"
                   id="email"
               
                 />
-                <button className=" btn-signup position-absolute top-50 end-0 translate-middle-y mx-1 mx-lg-4 d-none d-lg-block">
+                <button className=" btn-signup position-absolute  top-50 end-0 translate-middle-y mx-1 mx-lg-4 d-none d-lg-block">
                   Join now
                 </button>
               </div>
