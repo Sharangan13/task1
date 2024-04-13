@@ -23,20 +23,20 @@ export default function Page1() {
       <Container>
         <hr className="my-4 d-none d-md-block pt-2" />
         <div className='px-0 px-lg-5'>
-  <ul className="row list-unstyled cursor-pointer tabnav">
-    <div className="col-4 col-lg  d-lg-block">
+  <ul className="d-flex justify-content-between list-unstyled cursor-pointer tabnav">
+    <div className="d-lg-block">
       <li className={`${selectedItem === 'Scheduler' ? 'pricolor' : 'text-muted'}`} onClick={() => handleItemClick('Scheduler', image12)}><IoCalendarClear /> Scheduler<hr className={`custom-hr ${selectedItem === 'Scheduler' ? 'pribgcolor' : 'hidden'}`} /></li>
     </div>
-    <div className="col-4 col-lg  d-lg-block">
+    <div className="d-lg-block whitespace-nowrap">
       <li className={`${selectedItem === 'QTG Tests' ? 'pricolor ' : 'text-muted'}`} onClick={() => handleItemClick('QTG Tests', image11)}><IoMdCheckboxOutline /> QTG Tests<hr className={`custom-hr ${selectedItem === 'QTG Tests' ? 'pribgcolor' : 'hidden'}`} /></li>
     </div>
-    <div className="col-4 col-lg  d-lg-block">
+    <div className="d-lg-block">
       <li className={`${selectedItem === 'Maintenance' ? 'pricolor ' : 'text-muted'}`} onClick={() => handleItemClick('Maintenance', image11)}><CiSettings /> Maintenance<hr className={`custom-hr ${selectedItem === 'Maintenance' ? 'pribgcolor' : 'hidden'}`} /></li>
     </div>
-    <div className=" col-lg d-none d-lg-block">
+    <div className="d-none d-lg-block">
       <li className={`${selectedItem === 'Crew Enroll' ? 'pricolor ' : 'text-muted'}`} onClick={() => handleItemClick('Crew Enroll', image11)}><LuUsers /> Crew Enroll<hr className={`custom-hr ${selectedItem === 'Crew Enroll' ? 'pribgcolor' : 'hidden'}`} /></li>
     </div>
-    <div className=" col-lg d-none d-lg-block">
+    <div className="d-none d-lg-block">
       <li className={`${selectedItem === 'Simulation Status' ? 'pricolor ' : 'text-muted'}`} onClick={() => handleItemClick('Simulation Status', image11)}><GoGraph /> Simulation Status<hr className={`custom-hr ${selectedItem === 'Simulation Status' ? 'pribgcolor' : 'hidden'}`} /></li>
     </div>
   </ul>

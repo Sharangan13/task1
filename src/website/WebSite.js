@@ -12,9 +12,7 @@ export default function WebSite() {
   return (
     <div id="mainhome">
 
-       <div>
-        <Header/>
-      </div>
+       
 
       <div id="home">
         <WebHome />
@@ -34,9 +32,7 @@ export default function WebSite() {
 
       <Page7 />
 
-      <div id="footer">
-        <Footer/>
-      </div>
+     
 
       
     </div>
