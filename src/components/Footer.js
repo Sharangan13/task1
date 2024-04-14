@@ -5,9 +5,19 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaArrowUp } from "react-icons/fa6";
-import { Link } from "react-scroll";
+import { Link , animateScroll } from 'react-scroll';
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
+
+  
+  function onSubmit() {
+    animateScroll.scrollToTop({
+      duration: 100,
+      smooth: 'easeInOutQuad'
+    });
+  }
+
   return (
     <>
       <div className="Footer py-5">
@@ -84,8 +94,8 @@ export default function Footer() {
                 </a>
               </div>
               <div>
-              <button className="btn-footer text-nowrap">
-              <Link to="home" spy={true} smooth={true} offset={-100} duration={300}>Back to Top <FaArrowUp /></Link>
+              <button className="btn-footer text-nowrap" onClick={onSubmit}>
+              Back to Top <FaArrowUp />
                 
               </button>
               </div>

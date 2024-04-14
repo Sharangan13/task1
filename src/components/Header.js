@@ -15,7 +15,7 @@ export default function Header() {
       <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end gap-lg-5 '>
         <Nav className='nav-custom gap-0 gap-lg-5'>
           <Nav.Link ><Link className="text-decoration-none text-muted " to="/home" spy={true} smooth={true} offset={0} duration={300}>Home</Link></Nav.Link>
-          <Nav.Link ><Link className="text-decoration-none text-muted " to="/about" spy={true} smooth={true} offset={0} duration={300}>Who is Andromeda?</Link></Nav.Link>
+          <Nav.Link ><Link className="text-decoration-none text-muted " to="/whoisandromeda" spy={true} smooth={true} offset={0} duration={300}>Who is Andromeda?</Link></Nav.Link>
           <Nav.Link ><Link className="text-decoration-none text-muted " to="/features" spy={true} smooth={true} offset={0} duration={300}>Features</Link></Nav.Link>    
           <Nav.Link><Link className="text-decoration-none text-muted " to="/roadmap"> RoadMap</Link></Nav.Link>
           <Nav.Link ><Link className="text-decoration-none text-muted " to="/contactus" spy={true} smooth={true} offset={0} duration={300}>Contact Us</Link></Nav.Link>

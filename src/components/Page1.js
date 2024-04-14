@@ -8,6 +8,7 @@ import { GoGraph } from "react-icons/go";
 import image12 from "../assets/image12.png";
 import image11 from "../assets/image11.png";
 import unlog from "../assets/unlog.png";
+import { Link } from 'react-router-dom';
 
 export default function Page1() {
   const [selectedItem, setSelectedItem] = useState('Scheduler');
@@ -56,7 +57,7 @@ export default function Page1() {
               </div>
               <div className='row text-center'>
                 <div className='col'>
-                  <button className='btn-commingsoon'>Coming Soon</button>
+                 <Link to="/commingsoon"><button className='btn-commingsoon'>Coming Soon</button></Link> 
                 </div>
               </div>
             </div>

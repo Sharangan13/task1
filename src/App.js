@@ -6,6 +6,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import RequestDemo from './components/RequestDemo';
 import RoadMap from './components/RoadMap';
+import WebHome from './website/WebHome';
+import WhoisAndromeda from './website/WhoisAndromeda';
+import Features from './website/Features';
+import ContactUs from './website/ContactUs';
 
 
 
@@ -16,11 +20,13 @@ function App() {
         <Header/>
 
         <Routes>
+        <Route exact path='/' element={<WebSite/>}></Route>
         <Route exact path='/home' element={<WebSite/>}></Route>
-        <Route exact path='/about' element={<WebSite/>}></Route>
-        <Route exact path='/contactus' element={<WebSite/>}></Route>
-        <Route exact path='/features' element={<WebSite/>}></Route>
+        <Route exact path='/whoisandromeda' element={<WhoisAndromeda/>}></Route>
+        <Route exact path='/features' element={<Features/>}></Route>
+        <Route exact path='/contactus' element={<ContactUs/>}></Route>
         <Route exact path='/requestDemo' element={<RequestDemo/>}></Route>
+        <Route exact path='/commingsoon' element={<RequestDemo/>}></Route>
         <Route exact path='/roadmap' element={<RoadMap/>}></Route>
         
         </Routes>
