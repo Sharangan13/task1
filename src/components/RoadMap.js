@@ -1,7 +1,4 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Vector2 from "../assets/Vector2.png";
 import Box1 from "./roadMapBox/Box1";
 import Box2 from "./roadMapBox/Box2";
 import Box3 from "./roadMapBox/Box3";
@@ -22,7 +19,7 @@ export default function RoadMap() {
         <div className=" d-flex flex-column align-items-center justify-content-center">
           <div className="col-12 col-lg-6 text-center py-5">
             <h1 className="pricolor1">Roadmap</h1>
-            <p className="text-justify pricolor fs-5">
+            <p className="text-justify pricolor fs-5 ">
               Stay connected with us as we continuously enhance our software
               with new features for optimal releases
             </p>

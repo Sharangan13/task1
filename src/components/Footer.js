@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "../assets/logo3.png";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
-import { IoLocationOutline } from "react-icons/io5";
+import { GrLocation } from "react-icons/gr";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaArrowUp } from "react-icons/fa6";
 import { Link , animateScroll } from 'react-scroll';
-import { useNavigate } from "react-router-dom";
+
 
 export default function Footer() {
 
@@ -25,12 +25,12 @@ export default function Footer() {
           <div className="row">
             <div className="col-md-6 col-lg-5 col-12 ft-1">
               <img src={logo} />
-              <ul className="list-unstyled pt-2 pt-lg-5">
+              <ul className="list-unstyled pt-2 pt-lg-5 text-muted fw-semibold">
                 <li>
-                  <a>
-                    <IoLocationOutline /> Andromeda Solutions Ltd,123 <br />
-                    Aviation Street,London,SW1A,1AA
-                  </a>
+                  <div className="d-flex align-items-start ">
+                    <div><GrLocation className="fs-5"/></div> <div><a> Andromeda Solutions Ltd,123 <br />
+                    Aviation Street,<br/>London,<br/>SW1A,<br/>1AA</a></div>
+                  </div>
                 </li>
                 <li className="mt-lg-2">
                   <a>
@@ -43,26 +43,25 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-
               
             </div>
             <div className="d-block d-md-none px-2">
               <hr />
             </div>
             <div className="col-md-6 col-lg-3 col-12 ft-2">
-              <h5>Useful Links</h5>
-              <ul className="list-unstyled">
+              <h5 className="fw-bold">Useful Links</h5>
+              <ul className="list-unstyled fw-semibold">
                 <a>
-                  <li>Who is Andromeda?</li>
+                  <li className="py-2">Who is Andromeda?</li>
                 </a>
                 <a>
-                  <li>Features</li>
+                  <li className="py-2">Features</li>
                 </a>
                 <a>
-                  <li>Roadmap</li>
+                  <li className="py-2">Roadmap</li>
                 </a>
                 <a>
-                  <li>Contact Us</li>
+                  <li className="py-2">Contact Us</li>
                 </a>
               </ul>
             </div>
@@ -70,14 +69,14 @@ export default function Footer() {
               <hr />
             </div>
             <div className="col-md-6 col-lg-4 col-12 ">
-              <h5>Legal</h5>
+              <h5 className="fw-bold">Legal</h5>
 
-              <ul className="list-unstyled">
+              <ul className="list-unstyled fw-semibold">
                 <a>
-                  <li>Terms and Conditions</li>
+                  <li className="py-2">Terms and Conditions</li>
                 </a>
                 <a>
-                  <li>Privacy Policy</li>
+                  <li className="py-2">Privacy Policy</li>
                 </a>
               </ul>
             </div>
@@ -101,7 +100,7 @@ export default function Footer() {
               </div>
           </div>
           <div>
-            <p className="text-body-secondary">
+            <p className="text-body-secondary fw-medium">
               Copyright &copy; 2024 Andromeda. All rights reserved.
             </p>
           </div>

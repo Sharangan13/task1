@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
 
 
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+ 
+}
+
+
 .pricolor{
     color:#016368 ;
 }
@@ -14,6 +21,18 @@
     background-color: #016368;
     color: #016368;
 }
+
+.nav-custom .nav-link.active-link {
+  text-decoration: underline;
+  color: black;
+}
+
+.active-link {
+  text-decoration: underline;
+  color: black;
+}
+
+
 
 .planeimg{
   width: 44px;
@@ -70,7 +89,7 @@
     padding-bottom: 1.5rem;
     margin: 0.1rem;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .emailInput{
@@ -105,8 +124,7 @@
   padding-right:2rem;
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
-  margin: 0.5rem;
-  font-weight: 600;
+   font-weight: 600;
   font-size: 20px;
 }
 
@@ -229,8 +247,8 @@ font-weight: 600;
 .custom-hr1 {
     border-radius: 3px;
     border: 3px solid black; 
-     align-items: end;
-         width: 20%;
+    align-items: end;
+   width: 20%;
          
     
 }
@@ -330,6 +348,19 @@ font-weight: 600;
   background-position: center;
 }
 
+.homeBgImg{
+  background-image: url("./assets/Vector1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.custom-features{
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
 
 
 @media (max-width: 576px) {
@@ -381,6 +412,10 @@ font-weight: 600;
 
 .requestDemoBgImg {
   background-image: none ;
+}
+
+.homeBgImg{
+  background-image: none;
 }
 }
   

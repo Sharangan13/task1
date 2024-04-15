@@ -9,7 +9,7 @@ export default function Page5() {
     <div className="container  custom-container2 py-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-6 mt-5">
-          <h1 className="bg-white text-start px-1">
+          <h1 className="bg-white text-start px-1 py-1">
             Selected Andromeda Features
             <hr className="custom-hr1" />
           </h1>
@@ -19,7 +19,7 @@ export default function Page5() {
         <div className="col-12 col-lg-6 px-3 px-lg-5 ">
           <IoCalendarClear className="commingsoonatag fs-2 " />
           <h2>Scheduler</h2>
-          <p className="pe-0 me-0 pe-lg-5 me-lg-5">
+          <p className="pe-0 me-0 pe-lg-5 me-lg-5 custom-features">
             The Scheduler feature in Andromeda facilitates efficient
             organization and management of training sessions, maintenance tasks,
             and simulator usage.
@@ -48,7 +48,7 @@ export default function Page5() {
         <div className="col-12 col-lg-6 px-3 px-lg-5">
           <CiSettings className="commingsoonatag fs-2" />
           <h2>Maintenance</h2>
-          <p>
+          <p className="pe-0 me-0 pe-lg-5 me-lg-5 custom-features">
             The Maintenance module within Andromeda is designed to streamline
             and oversee the upkeep, repair, and configuration of simulators used
             by aviation training centers.
@@ -78,7 +78,7 @@ export default function Page5() {
         <div className="col-12 col-lg-6 px-3 px-lg-5">
           <IoMdCheckboxOutline className="commingsoonatag fs-2" />
           <h2>QTG Tests</h2>
-          <p>
+          <p className="pe-0 me-0 pe-lg-5 me-lg-5 custom-features">
             The QTG module within Andromeda is designed to streamline and
             oversee the upkeep, repair, and configuration of simulators used by
             aviation training centers.
