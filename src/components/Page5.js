@@ -6,16 +6,17 @@ import { CiSettings } from "react-icons/ci";
 
 export default function Page5() {
   return (
-    <div className="container  custom-container2 py-5">
+    <div className="custom-container2">
+    <div className="container  py-5">
       <div className="row justify-content-center">
         <div className="col-12 col-md-6 mt-5">
-          <h1 className="bg-white text-start px-1 py-1">
+          <h1 className="bg-white text-start px-1 py-1 fw-bold">
             Selected Andromeda Features
             <hr className="custom-hr1" />
           </h1>
         </div>
       </div>
-      <div className="row py-5 bg-white rounded-5 m-1 m-lg-5 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+      <div className="row py-5 bg-white rounded-5 mt-5 mx-1 mx-lg-0 d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div className="col-12 col-lg-6 px-3 px-lg-5 ">
           <IoCalendarClear className="commingsoonatag fs-2 " />
           <h2>Scheduler</h2>
@@ -44,7 +45,7 @@ export default function Page5() {
           </div>
         </div>
       </div>
-      <div className="row py-5 bg-white rounded-5 m-1 m-lg-5 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+      <div className="row py-5 bg-white rounded-5 mt-5 mx-1 mx-lg-0 d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div className="col-12 col-lg-6 px-3 px-lg-5">
           <CiSettings className="commingsoonatag fs-2" />
           <h2>Maintenance</h2>
@@ -74,7 +75,7 @@ export default function Page5() {
 
         </div>
       </div>
-      <div className="row py-5 bg-white rounded-5 m-1 m-lg-5 d-flex flex-column flex-lg-row justify-content-center align-items-center">
+      <div className="row py-5 bg-white rounded-5 mt-5 mx-1 mx-lg-0 d-flex flex-column flex-lg-row justify-content-center align-items-center">
         <div className="col-12 col-lg-6 px-3 px-lg-5">
           <IoMdCheckboxOutline className="commingsoonatag fs-2" />
           <h2>QTG Tests</h2>
@@ -102,6 +103,7 @@ export default function Page5() {
             ></iframe>          </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

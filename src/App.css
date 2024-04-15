@@ -272,18 +272,21 @@ font-weight: 600;
   
   .custom-scroll {
     overflow-x: auto;
-    scrollbar-width: none; 
-    -ms-overflow-style: none; 
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
   }
   
   .custom-scroll::-webkit-scrollbar {
-    display: none; 
+    display: none;
   }
-
-  .custom-scroll-image{
+  
+  .custom-scroll-image {
     width: 400px;
     height: auto;
+    user-select: none;
   }
+  
   .image-name-overlay {
     position: absolute;
     bottom: 0;
@@ -361,6 +364,13 @@ font-weight: 600;
   
 }
 
+.ccc{
+background-color: #E9FEFF;
+clip-path: ellipse();
+
+
+
+}
 
 
 @media (max-width: 576px) {

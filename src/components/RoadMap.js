@@ -17,7 +17,7 @@ export default function RoadMap() {
         
       >
         <div className=" d-flex flex-column align-items-center justify-content-center">
-          <div className="col-12 col-lg-6 text-center py-5">
+          <div className="col-12 col-lg-6 text-center py-5 ccc">
             <h1 className="pricolor1">Roadmap</h1>
             <p className="text-justify pricolor fs-5 ">
               Stay connected with us as we continuously enhance our software

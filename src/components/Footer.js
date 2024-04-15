@@ -5,7 +5,8 @@ import { GrLocation } from "react-icons/gr";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaArrowUp } from "react-icons/fa6";
-import { Link , animateScroll } from 'react-scroll';
+import { animateScroll } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -51,18 +52,12 @@ export default function Footer() {
             <div className="col-md-6 col-lg-3 col-12 ft-2">
               <h5 className="fw-bold">Useful Links</h5>
               <ul className="list-unstyled fw-semibold">
-                <a>
-                  <li className="py-2">Who is Andromeda?</li>
-                </a>
-                <a>
-                  <li className="py-2">Features</li>
-                </a>
-                <a>
-                  <li className="py-2">Roadmap</li>
-                </a>
-                <a>
-                  <li className="py-2">Contact Us</li>
-                </a>
+                
+                <Link className="text-decoration-none text-dark" to="/whoisandromeda"><li onClick={onSubmit} className="py-2">Who is Andromeda?</li></Link> 
+                <Link className="text-decoration-none text-dark" to="/features"><li onClick={onSubmit} className="py-2">Features</li></Link> 
+                <Link className="text-decoration-none text-dark"  to="/roadmap"><li onClick={onSubmit} className="py-2">Roadmap</li></Link> 
+                <Link  className="text-decoration-none text-dark" to="/contactus"><li onClick={onSubmit} className="py-2">Contact Us</li></Link> 
+                
               </ul>
             </div>
             <div className="d-block d-md-none px-2">
