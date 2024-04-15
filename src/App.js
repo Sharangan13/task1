@@ -6,7 +6,6 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import RequestDemo from './components/RequestDemo';
 import RoadMap from './components/RoadMap';
-import WebHome from './website/WebHome';
 import WhoisAndromeda from './website/WhoisAndromeda';
 import Features from './website/Features';
 import ContactUs from './website/ContactUs';

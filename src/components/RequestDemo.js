@@ -1,7 +1,5 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
-import Vector2 from "../assets/Vector2.png";
+
 
 export default function RequestDemo() {
   return (
