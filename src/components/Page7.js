@@ -77,7 +77,7 @@ export default function Page7() {
                   id="email"
               
                 />
-                <button className=" btn-signup position-absolute  top-50 end-0 translate-middle-y mx-1 mx-lg-4 d-none d-lg-block">
+                <button className=" btn-joinnow position-absolute  top-50 end-0 translate-middle-y mx-1 mx-lg-4 d-none d-lg-block">
                   Join now
                 </button>
               </div>

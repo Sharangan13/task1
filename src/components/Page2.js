@@ -4,8 +4,8 @@ import image3 from "../assets/image3.png";
 
 export default function Page2() {
   return (
-    <div>
-    <Container className='d-flex flex-column flex-lg-row custom-container1 py-4 py-lg-0 page2'>
+    <div className='custom-container1'>
+    <Container className='d-flex flex-column flex-lg-row  py-4 py-lg-0 page2'>
         <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'>
             <div className='w-100 px-1 px-lg-5'>
                 <h1>Who is Andromeda?<hr className='custom-hr1'/></h1>

@@ -5,6 +5,7 @@ import Box3 from "./roadMapBox/Box3";
 import Box4 from "./roadMapBox/Box4";
 import Box5 from "./roadMapBox/Box5";
 import { TbSquareRotatedFilled } from "react-icons/tb";
+import Header from "./Header";
 
 
 
@@ -12,18 +13,22 @@ export default function RoadMap() {
   return (
     <div>
       
-      <div
-        className="d-flex flex-column align-items-center justify-content-center requestDemoBgImg"
-        
-      >
-        <div className=" d-flex flex-column align-items-center justify-content-center">
-          <div className="col-12 col-lg-6 text-center py-5 ccc">
+<div className="requestDemoHeaderBgImg mb-0 mb-lg-5">
+      <Header/>
+      <div className="d-flex flex-column align-items-center justify-content-center col-12  text-center pt-5 py-lg-5">
             <h1 className="pricolor1">Roadmap</h1>
-            <p className="text-justify pricolor fs-5 ">
+            <p className="text-justify pricolor fs-5 col-12 col-lg-5 px-3 px-lg-0">
               Stay connected with us as we continuously enhance our software
               with new features for optimal releases
             </p>
           </div>
+          </div>
+      <div
+        className="d-flex flex-column align-items-center justify-content-center"
+        
+      >
+        <div className=" d-flex flex-column align-items-center justify-content-center">
+          
 
           <div className="container row ">
 
