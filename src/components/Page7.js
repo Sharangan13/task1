@@ -46,7 +46,7 @@ export default function Page7() {
                 <h1 className="display-4 fw-medium py-2 py-lg-">Countdown to Andromeda Launch</h1>
               </div>
               <div className="col-12">
-                <p className="fs-2 pricolor1">
+                <p className="fs-2 fw-medium pricolor1">
                   Get Ready for a Revolutionary Experience
                 </p>
               </div>

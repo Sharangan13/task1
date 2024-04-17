@@ -8,12 +8,13 @@ export default function Page6() {
     <div className="container py-5">
 
       <div className="d-flex flex-column flex-lg-row">
-        <div className="col-12 col-lg-6 px-0 px-lg-5">
-          <h1>Still have question?</h1>
-          <p>
-            We are friendly and available to respond your messages. Reach out to
-            us anytime and we’ll happily answer your questions.
+        <div className="col-12 col-lg-6 px-0 pe-lg-5">
+          <div className="px-2">
+          <h1 className="fs-1 fw-bold">Still Have Question?</h1>
+          <p className="page6phra">
+          We are friendly and available to respond to your messages. Reach out to us anytime and we’ll happily answer your questions.
           </p>
+          </div>
           <div className="row">
             <div className="col-12  boarder">
               <div className="container">
@@ -60,8 +61,8 @@ export default function Page6() {
           </div>
         </div>
 
-        <div className="col-12 col-lg-6">
-          <form>
+        <div className="col-12 col-lg-6 px-3 px-lg-0">
+          <form className="ps-0 ps-lg-3">
             <div className="mb-3">
               <label htmlFor="name" className="form-label">Your Name<span className="text-danger"> *</span></label>
               <input type="text" className="form-control border shadow-sm py-3 bg-light" id="name" />
@@ -72,13 +73,13 @@ export default function Page6() {
             </div>
             <div className="mb-3">
               <label htmlFor="phone" className="form-label">Phone</label>
-              <input type="tel" className="form-control border shadow-sm py-3 bg-light" id="phone" />
+              <input type="tel" className="form-control border shadow-sm py-3 bg-light" id="phone" required  />
             </div>
             <div className="mb-3">
               <label htmlFor="message" className="form-label">Your Message/Question</label>
               <textarea className="form-control bg-light" id="message border shadow-sm" rows="6"></textarea>
             </div>
-            <button type="submit" className="btn-signup w-100">Submit Message</button>
+            <button type="submit" className="btn-submitt w-100">Submit Message</button>
           </form>
         </div>
       </div>

@@ -7,9 +7,9 @@ export default function Page2() {
     <div className='custom-container1'>
     <Container className='d-flex flex-column flex-lg-row  py-4 py-lg-0 page2'>
         <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'>
-            <div className='w-100 px-1 px-lg-5'>
+            <div className='w-100 px-1 px-lg-5 page2phr'>
                 <h1>Who is Andromeda?<hr className='custom-hr1'/></h1>
-                <p className='fs-4 '>Andromeda is a software solutions provider to the aviation simulation and maintenance industries. Andromeda is a SAAS product, where customers can purchase on a subscription basis depending on their requirements. Customers can use the software at their training centers, and they can add as many technicians to use the software whilst the customer can have complete control.</p>
+                <p>Andromeda is a leading software solutions provider specializing in aviation simulation and maintenance. Our cutting-edge product operates on a Software as a Service (SAAS) model and offers a versatile subscription-based framework that is precisely tailored to meet the unique needs of our valued clients. Designed to improve training center performance, our solution gives clients the ability to enlist multiple technicians under their account while maintaining complete control over the software's deployment. Elevate your aviation training and maintenance endeavors with Andromeda - a sophisticated and versatile software solution meticulously crafted with industry experts in mind.</p>
             </div>
         </div>
         <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center py-4'>

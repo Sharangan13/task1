@@ -6,7 +6,7 @@ import { FiPhoneCall } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaArrowUp } from "react-icons/fa6";
 import { animateScroll } from 'react-scroll';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -25,7 +25,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-5 col-12 ft-1">
-              <img src={logo} />
+            <NavLink to="/home"><img src={logo}  alt="Logo" onClick={onSubmit}/></NavLink>
               <ul className="list-unstyled pt-2 pt-lg-5 text-muted fw-semibold">
                 <li>
                   <div className="d-flex align-items-start ">
@@ -67,12 +67,10 @@ export default function Footer() {
               <h5 className="fw-bold">Legal</h5>
 
               <ul className="list-unstyled fw-semibold">
-                <a>
-                  <li className="py-2">Terms and Conditions</li>
-                </a>
-                <a>
-                  <li className="py-2">Privacy Policy</li>
-                </a>
+                
+                <Link  className="text-decoration-none text-dark" to="/termsandcondition"><li onClick={onSubmit} className="py-2">Terms and Conditions</li></Link>             
+                <Link  className="text-decoration-none text-dark" to="/privacy"><li onClick={onSubmit} className="py-2">Privacy Policy</li></Link> 
+
               </ul>
             </div>
           </div>

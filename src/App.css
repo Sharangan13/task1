@@ -22,10 +22,10 @@ body {
     color: #016368;
 }
 
-.nav-custom .nav-link.active-link {
+/* .nav-custom .nav-link.active-link {
   text-decoration: underline;
   color: black;
-}
+} */
 
 .active-link {
   text-decoration: underline;
@@ -50,6 +50,19 @@ body {
     padding-bottom: 0.7rem;
     margin: 0.2rem;
     font-weight: 600;
+}
+
+.btn-submitt {
+  background-color: #016368;
+  color:white;
+  border-radius: 12px;
+  border: 0;
+  padding-left:1.5rem;
+  padding-right:1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+ 
+  font-weight: 600;
 }
 
 .btn-joinnow {
@@ -158,8 +171,12 @@ body {
 }
 
 .tabnav{
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
+}
+
+.tabnav div{
+  padding: 5px;
 }
 
 .page2 h1{
@@ -210,7 +227,11 @@ body {
 font-family: Plus Jakarta Sans;
 font-size: 1.1rem ;
 font-weight: 600;
+align-items: center;
+
+
 }
+
 
 .phracolor{
     background: linear-gradient(to right, #00555A, #50B893);
@@ -267,6 +288,17 @@ font-weight: 600;
     
 }
 
+
+
+.custom-hrPage5 {
+  border-radius: 3px;
+  border: 3px solid black; 
+  align-items: end;
+ width: 20%;
+       
+  
+}
+
 .custom-hr2 {
     border-radius: 3px;
     border: 3px solid black; 
@@ -298,7 +330,7 @@ font-weight: 600;
   .custom-scroll-image {
     width: 400px;
     height: auto;
-    user-select: none;
+    
   }
   
   .image-name-overlay {
@@ -310,6 +342,7 @@ font-weight: 600;
     padding-bottom: 20px;
     font-size: 24px;
     font-weight: 600;
+  
   }
 
   .cursor-pointer{
@@ -365,18 +398,7 @@ font-weight: 600;
   background-position: center;
 }
 
-.requestDemoHeaderBgImg{
- 
-background-color: #E9FEFF;
-width:100%;
-height: 300px;
-background-size: cover;
--webkit-clip-path: ellipse(50% 100% at 50% 0%);
-clip-path: ellipse(60% 100% at 50% 0%);
 
-
-
-}
 
 .homeBgImg{
   background-image: url("./assets/Vector1.png");
@@ -386,12 +408,52 @@ clip-path: ellipse(60% 100% at 50% 0%);
 }
 
 .custom-features{
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
+  color: #3D3D3D;
   
 }
 
+.page2phr p{
+  font-size: 23px;
+  }
 
+  .page5h1{
+    background-color: white;
+    text-align: start;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 1rem;
+  }
+
+  .page6phra{
+    font-size: 17px;
+  }
+
+  .privacy p{
+    font-size: 1.2rem;
+  }
+
+  .privacy h1{
+    font-size: 2.7rem;
+  }
+ 
+
+  @media (min-width: 1200px){
+    .requestDemoHeaderBgImg{
+ 
+      background-color: #E9FEFF;
+      width:100%;
+      height: 300px;
+      background-size: cover;
+      -webkit-clip-path: ellipse(50% 100% at 50% 0%);
+      clip-path: ellipse(60% 100% at 50% 0%);
+      
+      
+      
+      }
+
+  }
 @media (max-width: 576px) {
   .planeimg {
     width: 28px; 
@@ -447,12 +509,68 @@ clip-path: ellipse(60% 100% at 50% 0%);
   background-image: none;
 }
 
-.requestDemoHeaderBgImg{
-  background-color:white;
-  -webkit-clip-path:none;
-  clip-path: none
 
+
+.tabnav{
+  font-size: 15px;
+  
 }
+
+.page2phr p{
+font-size: 18px;
+}
+
+.custom-features{
+  font-size: 16px;
+  
+ 
+  
+}
+
+.page5h1{
+  background-color:#00ADB0;
+  color: white;
+  text-align: start;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.custom-hrPage5 {
+  border: 3px solid white; 
+  
+  
+}
+
+.nav-custom{
+
+  font-size: 0.9rem ;
+  font-weight: 700;
+  align-items: center;
+  border-radius: 10px;
+  padding-top: 10px;  
+  
+  }
+
+  .nav-custom .nav-link{
+
+   width: 100%;
+   text-align: center;
+   padding: 0.9rem;
+
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+   
+    margin: 2px;
+    
+  }
+
+  .privacy p{
+    font-size: 1.05rem;
+  }
+
+  .privacy h1{
+    font-size: 2rem;
+  }
 }
   
   

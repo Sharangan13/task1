@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand><img src={logo} alt="Logo" /></Navbar.Brand>
+        <NavLink to="/home"><img src={logo}  alt="Logo" /></NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end gap-lg-5 '>
           <Nav className='nav-custom gap-0 gap-lg-5'>
@@ -20,10 +20,10 @@ export default function Header() {
             <NavLink  className="nav-link" to="/contactus">Contact Us</NavLink>
           </Nav>
 
-          <div>
+          {/* <div>
             <button className="btn-signup whitespace-nowrap">Sign Up</button>
             <button className="btn-login">Login</button>
-          </div>
+          </div> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
