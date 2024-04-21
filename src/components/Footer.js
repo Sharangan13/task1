@@ -56,10 +56,10 @@ export default function Footer() {
               <h5 className="fw-bold">Useful Links</h5>
               <ul className="list-unstyled fw-semibold">
                 
-                <Link className="text-decoration-none text-dark" to='/whoisandromeda' ><li  className="py-2" onClick={onSubmit}>Who is Andromeda?</li></Link> 
-                <Link className="text-decoration-none text-dark" to='/features'   ><li className="py-2" onClick={onSubmit}>Features</li></Link> 
-                <Link className="text-decoration-none text-dark" to='/roadmap'><li  className="py-2" onClick={onSubmit}>Roadmap</li></Link> 
-                <Link  className="text-decoration-none text-dark" to='/contactus'><li  className="py-2" onClick={onSubmit}>Contact Us</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/whoisandromeda' ><li  className="py-2" >Who is Andromeda?</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/features'   ><li className="py-2" >Features</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/roadmap'><li  className="py-2" >Roadmap</li></Link> 
+                <Link  className="text-decoration-none text-dark" to='/contactus'><li  className="py-2" >Contact Us</li></Link> 
                 
               </ul>
             </div>
@@ -71,8 +71,8 @@ export default function Footer() {
 
               <ul className="list-unstyled fw-semibold">
                 
-                <Link  className="text-decoration-none text-dark" to='/termsandcondition' onClick={onSubmit}><li  className="py-2">Terms and Conditions</li></Link>             
-                <Link  className="text-decoration-none text-dark" to='/privacy' onClick={onSubmit}><li  className="py-2">Privacy Policy</li></Link> 
+                <Link  className="text-decoration-none text-dark" to='/termsandcondition' ><li  className="py-2">Terms and Conditions</li></Link>             
+                <Link  className="text-decoration-none text-dark" to='/privacy' ><li  className="py-2">Privacy Policy</li></Link> 
 
               </ul>
             </div>
