@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import image14 from "../assets/image14.png";
+import { Link } from "react-router-dom";
 
 export default function Page7() {
   const [days, setDays] = useState(0);
@@ -90,12 +91,12 @@ export default function Page7() {
 
              
 
-              <div className="col-12 px-4">
-                <p>
-                  Read our <a href="" className="pricolor">
-                    privacy policy
-                  </a>
-                </p>
+              <div className="col-12 px-4  d-flex">
+                <p className=" pe-1">
+                  Read our </p> <Link to="/privacy" className="pricolor" onClick={onsubmit}>
+                     privacy policy
+                  </Link>
+                
               </div>
             </div>
           </div>

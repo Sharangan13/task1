@@ -321,6 +321,7 @@ align-items: center;
     scrollbar-width: none;
     -ms-overflow-style: none;
     -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
   
   .custom-scroll::-webkit-scrollbar {
@@ -437,6 +438,59 @@ align-items: center;
   .privacy h1{
     font-size: 2.7rem;
   }
+
+  .termspage li {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }  
+
+.termspage li p{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.termspage li p{
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.termsphra{
+  font-size: 1.2rem;
+}
+
+.iconsize{
+  font-size: 2rem;
+}
+
+
+/* .custom-roadmap-box-containerbox5{
+  background-color: #EDFFFD;
+  border-radius: 2px;
+  border: 1px solid #00868B80;
+
+}
+
+.custom-roadmap-box-containerbox5 h1{
+
+  font-size: 18px;
+} */
+
+
+.blurred {
+  backdrop-filter: blur(8px); /* Adjust the blur intensity as needed */
+  -webkit-backdrop-filter: blur(8px); /* For Safari */
+}
+
+.blurred-text {
+  color: transparent;
+  text-shadow: 0 0 8px rgba(0,0,0,0.5); /* Add a shadow to make the text readable */
+}
+
+.blurred-line {
+  border-color: transparent; /* Hide the border line */
+}
+
+
  
 
   @media (min-width: 1200px){
@@ -549,6 +603,7 @@ font-size: 18px;
   align-items: center;
   border-radius: 10px;
   padding-top: 10px;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
   
   }
 
@@ -558,7 +613,7 @@ font-size: 18px;
    text-align: center;
    padding: 0.9rem;
 
-   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+   /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05); */
    
     margin: 2px;
     
@@ -570,6 +625,10 @@ font-size: 18px;
 
   .privacy h1{
     font-size: 2rem;
+  }
+
+  .termsphra{
+    font-size: 1.1rem;
   }
 }
   

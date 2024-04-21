@@ -13,7 +13,7 @@ export default function Header() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end gap-lg-5 '>
           <Nav className='nav-custom gap-0 gap-lg-5'>
-            <NavLink exact className="nav-link" to="/home">Home</NavLink>
+            <NavLink className="nav-link" to="/home">Home</NavLink>
             <NavLink  className="nav-link" to="/whoisandromeda">Who is Andromeda?</NavLink>
             <NavLink  className="nav-link" to="/features">Features</NavLink>
             <NavLink  className="nav-link" to="/roadmap">RoadMap</NavLink>

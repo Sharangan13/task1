@@ -10,6 +10,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 
 export default function Footer() {
+  
 
   
   function onSubmit() {
@@ -19,31 +20,33 @@ export default function Footer() {
     });
   }
 
+  
   return (
     <>
       <div className="Footer py-5">
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-5 col-12 ft-1">
-            <NavLink to="/home"><img src={logo}  alt="Logo" onClick={onSubmit}/></NavLink>
+            <Link to="/home"><img src={logo}  alt="Logo" onClick={onSubmit} /></Link>
               <ul className="list-unstyled pt-2 pt-lg-5 text-muted fw-semibold">
                 <li>
                   <div className="d-flex align-items-start ">
-                    <div><GrLocation className="fs-5"/></div> <div><a> Andromeda Solutions Ltd,123 <br />
+                    <div><GrLocation className="fs-5"/></div> <div><a className="text-decoration-none text-muted" href=""> Andromeda Solutions Ltd,123 <br />
                     Aviation Street,<br/>London,<br/>SW1A,<br/>1AA</a></div>
                   </div>
                 </li>
                 <li className="mt-lg-2">
-                  <a>
+                  <a className="text-decoration-none text-muted" href="tel:+12398235070">
                     <FiPhoneCall /> (239) 823 5070
                   </a>
                 </li>
                 <li className="mt-lg-2">
-                  <a>
+                <a className="text-decoration-none text-muted" href="mailto:contact@andromeda.com">
                     <MdOutlineEmail /> contact@andromeda.com
                   </a>
                 </li>
               </ul>
+
               
             </div>
             <div className="d-block d-md-none px-2">
@@ -53,10 +56,10 @@ export default function Footer() {
               <h5 className="fw-bold">Useful Links</h5>
               <ul className="list-unstyled fw-semibold">
                 
-                <Link className="text-decoration-none text-dark" to="/whoisandromeda"><li onClick={onSubmit} className="py-2">Who is Andromeda?</li></Link> 
-                <Link className="text-decoration-none text-dark" to="/features"><li onClick={onSubmit} className="py-2">Features</li></Link> 
-                <Link className="text-decoration-none text-dark"  to="/roadmap"><li onClick={onSubmit} className="py-2">Roadmap</li></Link> 
-                <Link  className="text-decoration-none text-dark" to="/contactus"><li onClick={onSubmit} className="py-2">Contact Us</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/whoisandromeda' ><li  className="py-2" onClick={onSubmit}>Who is Andromeda?</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/features'   ><li className="py-2" onClick={onSubmit}>Features</li></Link> 
+                <Link className="text-decoration-none text-dark" to='/roadmap'><li  className="py-2" onClick={onSubmit}>Roadmap</li></Link> 
+                <Link  className="text-decoration-none text-dark" to='/contactus'><li  className="py-2" onClick={onSubmit}>Contact Us</li></Link> 
                 
               </ul>
             </div>
@@ -68,8 +71,8 @@ export default function Footer() {
 
               <ul className="list-unstyled fw-semibold">
                 
-                <Link  className="text-decoration-none text-dark" to="/termsandcondition"><li onClick={onSubmit} className="py-2">Terms and Conditions</li></Link>             
-                <Link  className="text-decoration-none text-dark" to="/privacy"><li onClick={onSubmit} className="py-2">Privacy Policy</li></Link> 
+                <Link  className="text-decoration-none text-dark" to='/termsandcondition' onClick={onSubmit}><li  className="py-2">Terms and Conditions</li></Link>             
+                <Link  className="text-decoration-none text-dark" to='/privacy' onClick={onSubmit}><li  className="py-2">Privacy Policy</li></Link> 
 
               </ul>
             </div>
