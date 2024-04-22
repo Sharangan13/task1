@@ -6,7 +6,7 @@ import image9 from "../assets/image9.png";
 export default function Page4() {
   return (
     <div className='container py-5 '>   
-         <div>
+         <div className='px-1'>
             <h1 className='fw-bold'>Andromeda users</h1>
             <hr className='custom-hr2'/>
           </div>   

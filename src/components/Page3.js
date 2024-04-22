@@ -46,7 +46,7 @@ export default function Page3() {
       <div className='row'>
         <div className='col'>
           <div className='d-flex  justify-content-between align-items-center'>
-            <div>
+            <div className='px-3'>
             <h1 className='fw-bold'>Andromeda for</h1>
             <hr className='custom-hr2 col-4'/>
             </div>

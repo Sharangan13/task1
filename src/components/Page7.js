@@ -43,11 +43,11 @@ export default function Page7() {
         <div className="d-flex flex-column flex-lg-row">
           <div className="col-12 col-lg-6">
             <div className="row col-12">
-              <div className="col-12">
-                <h1 className="display-4 fw-medium py-2 py-lg-">Countdown to Andromeda Launch</h1>
+              <div className="col-12 page7h">
+                <h1 className="py-2 py-lg-">Countdown to Andromeda Launch</h1>
               </div>
-              <div className="col-12">
-                <p className="fs-2 fw-medium pricolor1">
+              <div className="col-12 page7p">
+                <p className="pricolor1">
                   Get Ready for a Revolutionary Experience
                 </p>
               </div>
@@ -74,7 +74,7 @@ export default function Page7() {
                 <input
                   type="email"
                   placeholder="Enter your email address...."
-                  className="border-2  py-2 py-lg-4 px-4 my-1 my-md-3 my-lg-4 emailInput"
+                  className="border-2 emailInput"
                   id="email"
               
                 />
@@ -83,7 +83,7 @@ export default function Page7() {
                 </button>
               </div>
               <div className="col-12 ">
-              <button className="btn-signup d-block d-lg-none w-100">
+              <button className="btn-joinnow d-block d-lg-none w-100">
                   Join now
                 </button>
 
@@ -91,8 +91,8 @@ export default function Page7() {
 
              
 
-              <div className="col-12 px-4  d-flex">
-                <p className=" pe-1">
+              <div className="col-12 px-4  d-flex my-4">
+                <p className=" pe-1 ">
                   Read our </p> <Link to="/privacy" className="pricolor" onClick={onsubmit}>
                      privacy policy
                   </Link>

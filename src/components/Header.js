@@ -9,7 +9,7 @@ export default function Header() {
   return (
     <Navbar expand="lg">
       <Container>
-        <NavLink to="/home"><img src={logo}  alt="Logo" /></NavLink>
+        <NavLink to="/home"><img className='customlogo img-fluid' src={logo}  alt="Logo" /></NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end gap-lg-5 '>
           <Nav className='nav-custom gap-0 gap-lg-5'>

@@ -27,11 +27,11 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-md-6 col-lg-5 col-12 ft-1">
-            <Link to="/home"><img src={logo}  alt="Logo" onClick={onSubmit} /></Link>
+            <Link to="/home"><img className='customlogo img-fluid' src={logo}  alt="Logo" /></Link>
               <ul className="list-unstyled pt-2 pt-lg-5 text-muted fw-semibold">
                 <li>
                   <div className="d-flex align-items-start ">
-                    <div><GrLocation className="fs-5"/></div> <div><a className="text-decoration-none text-muted" href=""> Andromeda Solutions Ltd,123 <br />
+                    <div><GrLocation className="fs-5"/></div> <div><a className="text-decoration-none text-muted"> Andromeda Solutions Ltd,123 <br />
                     Aviation Street,<br/>London,<br/>SW1A,<br/>1AA</a></div>
                   </div>
                 </li>

@@ -120,10 +120,12 @@ body {
 .emailInput{
   
     border-radius: 40px;
-    border: 2px solid #016368;
+    border: 1px solid #00868B;
     font-weight: 500;
     width: 100%;
     font-size: 1.1rem;
+    padding: 1.5rem;
+    
    
 }
 
@@ -238,6 +240,7 @@ align-items: center;
     -webkit-background-clip: text;
     color: transparent;
   font-weight:700 ;
+  font-size: 50px;
   
   
 }
@@ -253,7 +256,7 @@ align-items: center;
 }
 
 .countdowncolor h1 {
-  font-size:110px; 
+  font-size:120px; 
   font-weight: 800;
 }
 
@@ -463,35 +466,62 @@ align-items: center;
 }
 
 
-/* .custom-roadmap-box-containerbox5{
+.custom-roadmap-box-containerbox5{
   background-color: #EDFFFD;
   border-radius: 2px;
   border: 1px solid #00868B80;
+  border: none;
 
 }
 
 .custom-roadmap-box-containerbox5 h1{
 
   font-size: 18px;
-} */
+}
 
 
 .blurred {
-  backdrop-filter: blur(8px); /* Adjust the blur intensity as needed */
-  -webkit-backdrop-filter: blur(8px); /* For Safari */
+  backdrop-filter: blur(8px); 
+  -webkit-backdrop-filter: blur(8px); 
 }
 
 .blurred-text {
   color: transparent;
-  text-shadow: 0 0 8px rgba(0,0,0,0.5); /* Add a shadow to make the text readable */
+  text-shadow: 0 0 8px rgba(0,0,0,0.5); 
 }
 
 .blurred-line {
-  border-color: transparent; /* Hide the border line */
+  border-color: transparent; 
 }
 
 
+
+  .custom-container2 iframe {
+    height: 400px;
+    width: 100%;
+  }
  
+
+  .customrounded{
+    border-radius: 2.3rem;
+  }
+
+  .customlogo{
+    width: 245px;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .page7h h1{
+    font-size: 3.3rem;
+    font-weight: 700;
+  }
+  
+  .page7p p{
+    font-size: 2.1rem;
+    font-weight: 400;
+  }
+
 
   @media (min-width: 1200px){
     .requestDemoHeaderBgImg{
@@ -514,7 +544,7 @@ align-items: center;
     height: 28px; 
   }
   .homep1{
-    font-size: 20px;
+    font-size: 17px;
   }
   
   .btn-commingsoon {
@@ -544,7 +574,7 @@ align-items: center;
 }
 
 .countdowncolor h1 {
-  font-size:60px; 
+  font-size:75px; 
 }
 
 .countdowncolor p {
@@ -571,7 +601,11 @@ align-items: center;
 }
 
 .page2phr p{
-font-size: 18px;
+font-size: 17px;
+}
+
+.page2phr h1{
+  font-size: 28px;
 }
 
 .custom-features{
@@ -630,6 +664,76 @@ font-size: 18px;
   .termsphra{
     font-size: 1.1rem;
   }
+
+  .custom-container2 iframe {
+    height: 200px;
+    width: 100%;
+  }
+
+  .customrounded{
+    border-radius:1rem;
+  }
+
+/*  Home*/
+  .phracolor{ 
+  font-size: 28px;
+  
+}
+.btn-home1 {
+
+  border-radius: 25px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+   font-weight: 500;
+  font-size: 17px;
+}
+
+.btn-home2 {
+
+  border-radius: 25px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+   font-weight: 500;
+  font-size: 17px;
+}
+
+
+/* page-03*/
+.image-name-overlay {
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+
+
+.emailInput{
+  
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+
+.btn-joinnow {
+
+  border-radius: 30px;
+  padding: 0.9rem;
+  font-weight: 500;
+  font-size: 1rem;
+
+}
+.page7h h1{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.page7p p{
+  font-size: 1.4rem;
+}
+
 }
   
   
